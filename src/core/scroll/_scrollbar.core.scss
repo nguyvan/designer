@@ -1,0 +1,16 @@
+.scrollbar-horizontal {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	height: 10px;
+	border-radius: 5px;
+	background-color: white;
+}
+.scrollbar-vertical {
+	display: flex;
+	position: absolute;
+	right: 0;
+	width: 10px;
+	border-radius: 5px;
+	background-color: white;
+}
