@@ -19,7 +19,6 @@ export const Scrollbar = ({ type, delta, size }: ScrollbarProps) => {
 
 	const handleWheel = ({ delta, size, type }: ScrollbarProps) => {
 		if (type === ScrollbarType.HORIZOTAL) {
-			console.log(delta.x);
 			if (delta.x < 0) {
 				ref.current!.style.right = "0";
 				ref.current!.style.left = "auto";
